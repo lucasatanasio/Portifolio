@@ -1,0 +1,45 @@
+*{
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 7%;
+    transition: 0.7s;
+}
+
+header.scrolled{
+    background-color: black;
+}
+
+header nav{
+    display: flex;
+    justify-content: right;
+    color: #FFFFFF;
+    padding: 0px;
+}
+
+header nav a h3{
+    margin: 1vh;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+
+header nav a h3:hover{
+    border: 2px solid white;
+    background-color: #ffffff1a;
+}
+
+body{
+    padding-top: 100px;
+    background: linear-gradient(115deg, #D7D7D7 40%,#a3a3a3 15%);
+    height: 100vh;
+}
