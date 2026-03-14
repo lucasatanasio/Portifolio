@@ -283,8 +283,8 @@ body::-webkit-scrollbar {
   list-style-type: circle;
 }
 
-.centralizar .links a img{
-    margin: 100px;
-    width: 250px;
-    height: 250px;
+.centralizar .links a img {
+  margin: 100px;
+  width: 250px;
+  height: 250px;
 }
