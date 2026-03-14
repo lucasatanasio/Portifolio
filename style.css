@@ -188,7 +188,7 @@ body::-webkit-scrollbar {
   display: grid;
   place-items: center;
   border-radius: 10px;
-  border: 1px solid black;
+  border: 1px solid #000000;
 }
 
 #tela_perfil .retangulo_perfil div {
